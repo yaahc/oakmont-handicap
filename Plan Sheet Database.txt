@@ -1,0 +1,18 @@
+Use forms in php or asp
+database menipulation would be done in action.php or corresponding asp file
+
+search for name in master list
+if( is in list )
+	add tourney score to name
+	update any information on master list that must be updated
+	
+if( is not on list )
+	create table for player
+	add tourney info to table
+	add player to master player list
+	
+run the queries when the info is requested. This way it will always do it based on the current date, because which scores are counted is time sensitive
+
+use the same php or asp language to write the report form to be used to access or view player info
+would probably have a dropdown menu or a text field to select/type in name
+would then run query in a different action.php to calculate the statistical data and print it to screen
